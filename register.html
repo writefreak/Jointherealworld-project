@@ -1,87 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />
-    <title>Register</title>
+<html>
+    <!-- Mirrored from www.Titan Trade Expert.online/user/register.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 May 2021 19:49:31 GMT -->
+    <!-- Added by HTTrack -->
+    <!-- Mirrored from Realworldtates.org/accessme/register.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Nov 2022 12:15:35 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <!-- /Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- Smartsupp Live Chat script -->
+        <script type="text/javascript">
+            var _smartsupp = _smartsupp || {};
+            _smartsupp.key = '472fc2bba9fa7b7c0addfecc92441682e6d87e01';
+            window.smartsupp || (function(d) {
+                var s, c, o = smartsupp = function() {
+                    o._.push(arguments)
+                }
+                ;
+                o._ = [];
+                s = d.getElementsByTagName('script')[0];
+                c = d.createElement('script');
+                c.type = 'text/javascript';
+                c.charset = 'utf-8';
+                c.async = true;
+                c.src = 'https://www.smartsuppchat.com/loader.js?';
+                s.parentNode.insertBefore(c, s);
+            }
+            )(document);
+        </script>
+        <noscript>
+            Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a>
+        </noscript>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Register</title>
+        <!-- GLOBAL MAINLY STYLES-->
+        <link href="vendors/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="vendors/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="vendors/css/themify-icons.css" rel="stylesheet"/>
+        <!-- THEME STYLES-->
+        <link href="asset/css/main.css" rel="stylesheet"/>
+        <!-- PAGE LEVEL STYLES-->
+        <link href="asset/css/auth-light.css" rel="stylesheet"/>
+    </head>
+    <body class="bg-silver-300" style="background: #323332 !important;">
+        <div class="content">
+            <div class="brand"></div>
+            <form action="userdashboard" class="bg-silver-300" style="background: #323332 !important;" method="post">
+                <input type="hidden" name="_token" value="fku218kUeZYWsuCeMgNjCDB0E402lQaYLJtqoN8Y">
+                <h2 class="login-title">
+                    <a href="./">
+                        <img src="images/logo.png" width="118px" height="65px" alt="logo">
+                    </a>
+                </h2>
+                <h2 class="login-title" style="color:#fff;">Create an account</h2>
+               <div class="form-group">
+    <input class="form-control" type="text" id="firstname" name="firstname" placeholder="First name">
+</div>
+<div class="form-group">
+    <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Last name">
+</div>
+<div class="form-group">
+    <input class="form-control" type="text" id="username" name="username" placeholder="User name">
+</div>
+<div class="form-group">
+    <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+</div>
+<div class="form-group">
+    <input class="form-control" type="text" id="mobile" name="mobile" placeholder="Phone number">
+</div>
 
-    <!-- GLOBAL MAINLY STYLES-->
-    <link href="vendors/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="vendors/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="vendors/css/themify-icons.css" rel="stylesheet" />
 
-    <!-- THEME STYLES-->
-    <link href="asset/css/main.css" rel="stylesheet" />
-    <link href="asset/css/auth-light.css" rel="stylesheet" />
-  </head>
-
-  <body class="bg-silver-300" style="background: #323332 !important">
-    <div class="content">
-      <div class="brand"></div>
-
-      <!-- 🔥 FIXED FORM -->
-      <form
-        class="bg-silver-300"
-        style="background: #323332 !important"
-        onsubmit="registerUser(); return false;"
-      >
-        <h2 class="login-title">
-          <a href="./">
-            <img src="images/logo.png" width="118" height="65" alt="logo" />
-          </a>
-        </h2>
-
-        <h2 class="login-title" style="color: #fff">Create an account</h2>
-
-        <div class="form-group">
-          <input
-            class="form-control"
-            type="text"
-            id="firstname"
-            placeholder="First name"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <input
-            class="form-control"
-            type="text"
-            id="lastname"
-            placeholder="Last name"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <input
-            class="form-control"
-            type="text"
-            id="username"
-            placeholder="User name"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <input
-            class="form-control"
-            type="email"
-            id="email"
-            placeholder="Email"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <input
-            class="form-control"
-            type="text"
-            id="mobile"
-            placeholder="Phone number"
-          />
-        </div>
 
         <div class="form-group">
           <select class="form-control" id="currency" required>
