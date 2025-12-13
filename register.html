@@ -60,7 +60,7 @@
     <body class="bg-silver-300" style="background: #323332 !important;">
         <div class="content">
             <div class="brand"></div>
-            <form action="userdashboard.html" class="bg-silver-300" style="background: #323332 !important;" method="post">
+            <form action="userdashboard" class="bg-silver-300" style="background: #323332 !important;" method="post">
                 <input type="hidden" name="_token" value="fku218kUeZYWsuCeMgNjCDB0E402lQaYLJtqoN8Y">
                 <h2 class="login-title">
                     <a href="./">
@@ -691,7 +691,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label>User Name</label>
-                                        <input type=class="form-control" type="text" id="username" placeholder="User name">
+                                        <input type="form-control" type="text" id="username" placeholder="User name">
                                     </div>
                                     <div class="form-group">
                                         <label>country</label>
@@ -762,10 +762,10 @@ function registerUser() {
     localStorage.setItem("country", country);
     localStorage.setItem("currency", currency);
     localStorage.setItem("password", password);
-    localStorage.setItem("confirm password", confirm password);
+    localStorage.setItem("confirm password", confirmpassword);
 
     // Redirect to login
-    window.location.href = "login.html";
+    window.location.href = "login";
 }
 </script>
 
